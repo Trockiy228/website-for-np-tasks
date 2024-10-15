@@ -1,0 +1,40 @@
+.pageContainer {
+  max-width: 900px;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 48px 36px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  text-decoration: none;
+  display: block;
+  height: 250px;
+  background-color: rgb(77, 115, 115);
+  display: flex;
+  align-items: center;
+  border-radius: 36px;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover,
+.card:active {
+  transform: scale(1.05);
+}
+
+.name {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 24px;
+}
